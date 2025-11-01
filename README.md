@@ -2,7 +2,7 @@
 
 A beautiful Bangla-first web-based note-taking application with voice recording, AI transcription, summarization, and calendar integration.
 
-![Shorol Notes](screenshots\noteslist.png)
+![Shorol Notes](screenshots/noteslist.png)
 
 ## ✨ Features
 
@@ -23,27 +23,27 @@ A beautiful Bangla-first web-based note-taking application with voice recording,
 ### Note Editor
 A distraction-free editor with voice recording, transcription, and calendar integration.
 
-![Note Editor](screenshots\notesedit.png)
+![Note Editor](screenshots/notesedit.png)
 
 ### Voice Recording
 Record audio notes with a beautiful, intuitive interface.
 
-![Voice Recorder](screenshots\voice.png)
+![Voice Recorder](screenshots/voice.png)
 
 ### Calendar View
 See all your scheduled events from Google Calendar and Outlook in one place.
 
-![Calendar](screenshots\calender_events.png)
+![Calendar](screenshots/calender_events.png)
 
 ### Settings
 Configure your API keys and connect your calendar accounts.
 
-![Settings](screenshots\settings.png)
+![Settings](screenshots/settings.png)
 
 ### Light Mode
 Beautiful light mode for comfortable note-taking at night.
 
-![Dark Mode](screenshots\light.png)
+![Dark Mode](screenshots/light.png)
 
 ## 🚀 Getting Started
 
