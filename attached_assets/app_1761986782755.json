@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Shorol Notes",
+    "slug": "shorol-notes",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "shorolnotes",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.shorolnotes",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "ভয়েস রেকর্ড করতে মাইক্রোফোন অনুমতি প্রয়োজন।",
+        "NSCalendarsUsageDescription": "মিটিং/ইভেন্ট ক্যালেন্ডারে যোগ করতে অনুমতি প্রয়োজন।",
+        "NSRemindersUsageDescription": "রিমাইন্ডার পাঠাতে অনুমতি প্রয়োজন।"
+      }
+    },
+    "android": {
+      "package": "com.example.shorolnotes",
+      "permissions": [
+        "RECORD_AUDIO",
+        "READ_CALENDAR",
+        "WRITE_CALENDAR"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-notifications",
+        {
+          "mode": "production"
+        }
+      ]
+    ]
+  }
+}
